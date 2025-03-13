@@ -40,6 +40,7 @@ import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 //@Listeners(Generic_Utility.ListenersImp.class)
 //@Listeners(Generic_Utility.ExtentReport.class)
 public class CreateCampaignsTest extends BaseClass {
+	//poll scm
 
 	@Test(retryAnalyzer = Generic_Utility.RetryAnalyserImp.class)
 	public void createCampaignsTest() throws Throwable {
